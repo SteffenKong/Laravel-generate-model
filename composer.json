@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Steffenkong\\ModelCli\\ModelCli"
+                "Steffenkong\\ModelCli\\ModelCliProvider"
             ]
         }
     }
