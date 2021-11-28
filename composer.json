@@ -1,0 +1,26 @@
+{
+    "name": "steffenkong/laravel-generate-model",
+    "type": "library",
+    "authors": [
+        {
+            "name": "SteffenKong",
+            "email": "3266023724@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Steffenkong\\ModelCli\\" : "src"
+        }
+    },
+    "require": {
+        "illuminate/support": "8.*",
+        "illuminate/console": "8.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Steffenkong\\ModelCli\\ModelCli"
+            ]
+        }
+    }
+}
